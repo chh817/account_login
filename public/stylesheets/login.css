@@ -1,0 +1,43 @@
+.emailForm {
+  position: absolute;
+  left: 400px;
+  top: 150px;
+}
+
+.header-container {
+  margin-bottom: 33px;
+}
+
+.loginHeader {
+  font-weight: 350;
+}
+
+.email-container {
+  margin-bottom: 30px;
+}
+
+#email {
+  position: relative;
+  right: 36px;
+  border: 2px solid;
+  width: 325px;
+  height: 55px;
+
+}
+
+#password {
+  position: relative;
+  right: 36px;
+  border: 2px solid;
+  height: 55px;
+}
+
+#signinButton {
+  position: relative;
+  left: 65px;
+  bottom: 15px;
+  border: 2px solid;
+  border-radius: 7px;
+  width: 120px;
+  height: 45px;
+}

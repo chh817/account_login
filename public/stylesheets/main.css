@@ -1,0 +1,11 @@
+.navbar-container {
+  width: 100vw;
+}
+
+.navbar {
+  justify-content: center;
+}
+
+.navbar-brand {
+  font-size: small;
+}
