@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
 router.post('/', (req, res) => {
   const email = req.body.email.trim()
   const password = req.body.password.trim()
-  User.findOne().and([{ email: { $regex: email, $options: '$i' } }, { password: { $regex: password, $options: '$i' } }])
+  User.findOne().and([{ email: { $regex: email, $options: '$i' } }, { password }])
     .lean()
     .then(user => {
       if (user) return res.render('welcome', { name: user.firstName })

@@ -41,3 +41,9 @@
   width: 120px;
   height: 45px;
 }
+
+.alert {
+  position: relative;
+  left: 380px;
+  top: 30px;
+}
