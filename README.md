@@ -21,7 +21,7 @@
 1. 請先確認有安裝 node.js 與 npm
 2. 將專案 clone 到本地，透過終端機輸入
 ```zsh
-git clone -b main https://github.com/chh817/account_login.git
+git clone --single-branch -b main https://github.com/chh817/account_login.git
 ```
 3. 複製完畢，進入 account_login 資料夾，輸入
 ```zsh
