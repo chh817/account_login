@@ -4,5 +4,4 @@ const login = require('./modules/login')
 
 router.use('/', login)
 
-
 module.exports = router
